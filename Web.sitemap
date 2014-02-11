@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+        <siteMapNode url="~/default.aspx" title="Home"  description="Página Incial" roles="*">
+        <siteMapNode title="Menu"  description="Opções do sistema" url=""  roles="administrador,supervisor,operador">
+        <siteMapNode url="~/pdd.aspx" title="PDD"/>
+        <siteMapNode url="~/pesq.aspx" title="Acompanhamento"  description="Acompanhamento" />
+        <siteMapNode url="~/devtipo.aspx" title="Devedores/Tipo"  description="Devedores por tipo" />
+        <siteMapNode url="~/relgeral.aspx" title="Dívida Completa"  description="Dívida completa do aluno" />
+        </siteMapNode>
+        <siteMapNode title="Opções"  description="Opções" roles="administrador,supervisor">
+        <siteMapNode url="~/consulta.aspx" title="Consulta"  description="Consulta aluno"/>
+        <siteMapNode url="~/relcobind.aspx" title="Indevidas"  description="Cobrança indevida"/>
+        <siteMapNode url="~/resumo.aspx" title="Resumo Carga"  description="Resumo total da carga"/>
+        <siteMapNode url="~/sitday.aspx" title="Resumo Diário"  description="Resumo diário"/>
+        <siteMapNode url="~/sitmonth.aspx" title="Resumo Mensal"  description="Resumo mensal"/>
+        <siteMapNode url="~/resumotipoday.aspx" title="Resumo Diário Tipo"  description="Resumo diário p/ tipo"/>
+        <siteMapNode url="~/resumomonttipo.aspx" title="Resumo Mensal Tipo"  description="Resumo mensal p/ tipo"/>
+        </siteMapNode>
+        <siteMapNode title="Pasta Zero"  description="Pasta Zero" roles="administrador,secretaria">
+        <siteMapNode url="~/pzaluno.aspx" title="Cadastro"  description="Cadastro de Aluno e Pasta"/>
+        <siteMapNode url="~/pzconsulta.aspx" title="Consultar"  description="Consultar Pasta"/>
+        </siteMapNode>
+        <siteMapNode title="About"  description="Sobre" roles="*"/>
+        </siteMapNode>
+</siteMap>
